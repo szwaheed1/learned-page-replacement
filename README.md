@@ -87,6 +87,4 @@ Key findings:
 - **LRU** achieves the highest overall hit ratio among the non-optimal algorithms.
 - The **Learned policy** successfully approximates eviction signals and performs comparably to LRU (and occasionally beats it across different memory sizes), but does not outperform it under the default 8-frame workload.
 
-## AI Disclosure
 
-Claude Code was used for implementation assistance, debugging, code organization, documentation, and drafting support. The experimental design, workload parameters, analysis, interpretation, and final submission were verified to ensure they are truthful, reproducible, technically correct, and understandable.
