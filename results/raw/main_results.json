@@ -1,0 +1,122 @@
+{
+  "FIFO": {
+    "algorithm": "FIFO",
+    "total_accesses": 10000,
+    "faults": 3554,
+    "hits": 6446,
+    "hit_ratio": 0.6446,
+    "phase_metrics": {
+      "phase1": {
+        "total_accesses": 5000,
+        "faults": 712,
+        "hits": 4288,
+        "hit_ratio": 0.8576,
+        "fault_rate": 0.1424
+      },
+      "phase2": {
+        "total_accesses": 5000,
+        "faults": 2842,
+        "hits": 2158,
+        "hit_ratio": 0.4316,
+        "fault_rate": 0.5684
+      },
+      "overall": {
+        "total_accesses": 10000,
+        "faults": 3554,
+        "hits": 6446,
+        "hit_ratio": 0.6446,
+        "fault_rate": 0.3554
+      }
+    }
+  },
+  "LRU": {
+    "algorithm": "LRU",
+    "total_accesses": 10000,
+    "faults": 3484,
+    "hits": 6516,
+    "hit_ratio": 0.6516,
+    "phase_metrics": {
+      "phase1": {
+        "total_accesses": 5000,
+        "faults": 638,
+        "hits": 4362,
+        "hit_ratio": 0.8724,
+        "fault_rate": 0.1276
+      },
+      "phase2": {
+        "total_accesses": 5000,
+        "faults": 2846,
+        "hits": 2154,
+        "hit_ratio": 0.4308,
+        "fault_rate": 0.5692
+      },
+      "overall": {
+        "total_accesses": 10000,
+        "faults": 3484,
+        "hits": 6516,
+        "hit_ratio": 0.6516,
+        "fault_rate": 0.3484
+      }
+    }
+  },
+  "Optimal": {
+    "algorithm": "Optimal",
+    "total_accesses": 10000,
+    "faults": 2216,
+    "hits": 7784,
+    "hit_ratio": 0.7784,
+    "phase_metrics": {
+      "phase1": {
+        "total_accesses": 5000,
+        "faults": 285,
+        "hits": 4715,
+        "hit_ratio": 0.943,
+        "fault_rate": 0.057
+      },
+      "phase2": {
+        "total_accesses": 5000,
+        "faults": 1931,
+        "hits": 3069,
+        "hit_ratio": 0.6138,
+        "fault_rate": 0.3862
+      },
+      "overall": {
+        "total_accesses": 10000,
+        "faults": 2216,
+        "hits": 7784,
+        "hit_ratio": 0.7784,
+        "fault_rate": 0.2216
+      }
+    }
+  },
+  "Learned (DT)": {
+    "algorithm": "Learned (DT)",
+    "total_accesses": 10000,
+    "faults": 3492,
+    "hits": 6508,
+    "hit_ratio": 0.6508,
+    "phase_metrics": {
+      "phase1": {
+        "total_accesses": 5000,
+        "faults": 660,
+        "hits": 4340,
+        "hit_ratio": 0.868,
+        "fault_rate": 0.132
+      },
+      "phase2": {
+        "total_accesses": 5000,
+        "faults": 2832,
+        "hits": 2168,
+        "hit_ratio": 0.4336,
+        "fault_rate": 0.5664
+      },
+      "overall": {
+        "total_accesses": 10000,
+        "faults": 3492,
+        "hits": 6508,
+        "hit_ratio": 0.6508,
+        "fault_rate": 0.3492
+      }
+    }
+  }
+}
